@@ -13,5 +13,10 @@
             "name": "Jordan Hall",
             "email": "jordan@hall05.co.uk"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "DivineOmega\\Psr18GuzzleAdapter\\": "src/"
+        }
+    }
 }
